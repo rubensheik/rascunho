@@ -2,100 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Croissant One', cursive;
 }
 
-.card {
-    background-color: rgba(191, 201, 245, 0.445);
-    border: 1px solid black;
-    border-radius: 5px;
-    display: flex;
-    width: 500px;
-    height: 400px;
-    padding: 10px;
+header h1 {
+    font-family: 'Croissant One', cursive;
+    font-weight: 900;
 }
 
-.card h5, p {
-    text-align: center;
-    font-size: medium;
-    padding: 5px;
+.card-text, .btn {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #000;
 }
 
-.card h5 {
-    margin-top: 10px;
+.text-topo {
+    font-weight: bolder;
 }
 
-.card p {
-    height: 220px;
-    margin-top: 45px;
-}
-img {
-    width: 190px;
-    height: 210px;
-    margin-top: 75px;
+.small-image {
+    max-width: 350px;
+    max-height: 300px;
+    object-fit: cover;
 }
 
-.links {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    align-items: center;
+.background-header {
+    background-image: linear-gradient(to left, #342800, #c7a829 );
 }
 
-.links a {
-    width: 220px;
-    text-decoration: none;
-    color: black;
-    margin-bottom: 10px;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
-    overflow: hidden;
-    text-align: center;
-    cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.452);
+body {
+    background-color: #333;
 }
 
-.container {
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    margin: auto;
-}
-
-header {
-    height: 150px;
-    background-color: rgba(191, 201, 245, 0.445);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    padding: 15px;
-}
-
-header img {
-    width: 90px;
-    height: 80px;
-}
-
-footer {
-    height: 110px;
-    background-color: rgba(191, 201, 245, 0.445);
-}
-
-footer  p {
-    width: 85%;
-    margin: auto;
-    padding: 15px;
-}
-
-.section-top {
-    width: 85%;
-    text-align: center;
-    margin: auto;
-    height: 150px;
-    margin-top: 15px;
-    padding: 5px;
+.topo-msg {
+    color: #000;
 }
