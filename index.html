@@ -132,27 +132,28 @@
 </div>
         </div>
     </section>
-     </div>
-        <h2 class="Titulo">Envie o seu currículo!</h2>
-        <form>
-            <fieldset>
-              <legend>Preencha as informações abaixo:</legend>
-              <p>
-                <label for="size_1">Nome</label>
-                <input type="text" name="size" id="size_1" placeholder="Ex: Luiza Martins"/>
-              </p>
-              <p>
-                <label for="size_2">Descrição Pessoal</label>
-                <input type="text" name="size" id="size_2" placeholder="Ex: Desenvolvedor web procurando o primeiro emprego em tecnologia.."/>
-              </p>
-              <p>
-                <label for="size_3"></label>
-                <input type="file" name="size" id="size_3" placeholder="Upload Curriculo"/>
-              </p>
-            </fieldset>
-          </form>
-          
-    </div>
+    <section class="curriculo">
+        <div>       
+            <h2 class="Titulo">Envie seu currículo: </h2>
+        </div>
+        <div class="formulario">
+            <div id="area">
+                <form id="formulario" autocomplete="off">
+                <fieldset>
+                    <legend>Preencha as informações abaixo:</legend>
+                    <label>Nome:</label><input class="campo_nome" type="text" placeholder="Ex: Luiza Pessoa"><br>
+                    <label>Email:</label><input class="campo_email" type="password" placeholder="fulano@gmail.com"><br>
+                    <label>Descrição: </label><br><textarea class="msg" cols="35" rows="8" placeholder="Ex: Desenvolvedor web procurando o primeiro emprego em tecnologia..."></textarea><br>
+                    <p>
+                        <label for="size_3"></label>
+                        <input type="file" name="size" id="size_3" placeholder="Upload Curriculo"/>
+                    </p>
+                    <input class="btn_submit" type="submit" value="Enviar">
+                </fieldset>
+                </form>
+            </div>
+        </div>  
+    </section>   
     <footer class="bg-dark text-center py-4 background-header">
          </div>
             <p class="direitos">
